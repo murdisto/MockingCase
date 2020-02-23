@@ -3,26 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <title>Mocking Case Generator</title>
 </head>
 <body>
-  <header>
+  <header class="d-flex flex-row justify-content-center">
     <h1>
       Mocking Case Generator
     </h1>
   </header>
-  <main>
-    <section class="form-sec">
-      <form>
-        <label for="mock-input">Text: </label>
-        <input type="text" name="only" placeholder="Don't you guys have phones?" id="mock-input" size="50"></input>
-        <button id="button" type="button" value="Submit">Submit</button>
+  <main class="container-fluid">
+    <section class="">
+      <form class="d-flex flex-column justify-content-center">
+        <div class="form-group">
+          <label for="mock-input"></label>
+          <textarea class="form-control" type="textarea" name="only" placeholder="Don't you guys have phones?" id="mock-input" size="50"></textarea>
+        </div>
+        <div class="form-group">
+           <button class="btn btn-primary btn-sm btn-block" id="button" type="button" value="Submit" role="button">Submit</button>
+        </div>
       </form>
     </section>
-    <section class="result">
-      <p class="result-text" id="result">
-        Your output will display here.
-      </p>
+    <section class="">
+      <div class="card">
+        <p class="result-text card-body" id="result">
+          
+        </p>
+      </div>
     </section>
   </main>
   <script src="index.js"></script>

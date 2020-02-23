@@ -1,0 +1,16 @@
+form {
+  /* border: solid red 1px; */
+}
+
+button {
+  margin-top: 0.5rem;
+}
+
+.result-text {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem !important;
+ }
