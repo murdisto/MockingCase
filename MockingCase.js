@@ -1,3 +1,4 @@
+//This is a node program to be run from the command line
 const prompt = require('prompt');
 
 prompt.start().get(['Input'], (err, result) => {
