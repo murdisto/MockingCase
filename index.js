@@ -32,6 +32,7 @@ const copyButton = document.getElementById("copy-button");
 copyButton.addEventListener("click", e => {
   e.preventDefault();
   copyText(document.getElementById("result").textContent);  
+  copyButton.textContent = "Copied to Clipboard!";  
 });
 
 const copyText = elementId => {
