@@ -1,7 +1,3 @@
-form {
-  /* border: solid red 1px; */
-}
-
 button {
   margin-top: 0.5rem;
 }
@@ -13,4 +9,8 @@ button {
 
 h1 {
   font-size: 2rem !important;
+ }
+
+ #output {
+  visibility: hidden;
  }

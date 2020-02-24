@@ -18,6 +18,7 @@ const onButtonClick = () => {
   document.getElementById("result").textContent = "";
   document.getElementById("result").textContent = toMockingCase(mockInput);
   document.getElementById("mock-input").value = "";
+  document.getElementById("output").style.visibility = "visible";
 };
 
 submitButton.addEventListener("click", onButtonClick);
